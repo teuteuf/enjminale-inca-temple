@@ -1,3 +1,15 @@
+```c#
+//TODO: This code looks like an Inca Temple, to refactor.
+public void Nguaaah() {
+	throdagl.h'n'ghft.fhtagn.nnnhupadg();
+	Nyarlathotep = y'hah hrii + ebunma.s'uhn();
+	shtunggli.ngnw.ep.mg.chtenff.shoggyar();
+} 
+```
+![](images/indianaswap.webp)  
+_"Si je touche à ça... Est-ce que tout va péter..?"_
+
+
 # Slide 1
 Content **slide 1**!
 
