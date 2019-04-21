@@ -1,5 +1,5 @@
 ```c#
-//TODO: This code looks like an Inca Temple, to refactor.
+//TODO: This code looks like an Inca Temple. To refactor.
 public void Nguaaah() {
 	throdagl.h'n'ghft.fhtagn.nnnhupadg();
 	Nyarlathotep = y'hah hrii + ebunma.s'uhn();
@@ -8,6 +8,25 @@ public void Nguaaah() {
 ```
 ![](images/indianaswap.webp)  
 _"Si je touche à ça... Est-ce que tout va péter..?"_
+
+
+### Présentation
+- *'13 - '15 :* ENJMIN P10 ⭐  
+- *'15 - '17 :* Ubisoft Mobile  
+![](images/ubimobile.png)<!-- .element height="100px" -->
+![](images/smurfs.jpg)<!-- .element height="100px" -->
+![](images/smurfs_banniere.jpg)<!-- .element height="100px" -->
+- *'17 - '19 :* OCTO Technology (ESN/SSII)  
+![](images/octo.jpg)<!-- .element height="100px" -->
+![](images/thereisabetterway.png)<!-- .element height="100px" -->
+![](images/culturecode.png)<!-- .element height="100px" -->
+- Bientôt à Montpellier ! :D
+
+
+
+```
+//TODO: This code looks like an Inca Temple. To refactor.
+```
 
 
 # Slide 1
