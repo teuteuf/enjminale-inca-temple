@@ -132,10 +132,3 @@ Des liens !!!
 <http://www.google.fr>
 
 ---
-
-# Slide 6
-Export en pdf:
-```bash
-npx decktape http://localhost:8000/?fragments=true slides.pdf \
-    --chrome-arg=--no-sandbox
-```
