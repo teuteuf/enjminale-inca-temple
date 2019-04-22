@@ -91,7 +91,6 @@ que tout fonctionne bien.
 
 - 😒 Tests manuels <!-- .element: class="fragment" data-fragment-index="1" -->  
 - 🤔 Tests de bout en bout <!-- .element: class="fragment" data-fragment-index="2" -->  
-- 🙂 Tests fonctionnels <!-- .element: class="fragment" data-fragment-index="3" -->  
 - 😀 Tests unitaires <!-- .element: class="fragment" data-fragment-index="4" -->  
 
 pyramide de tests <!-- .element: class="fragment" data-fragment-index="5" -->  
@@ -111,10 +110,41 @@ pyramide de tests <!-- .element: class="fragment" data-fragment-index="5" -->
 
 ### Oui, mais non, on peut pas faire de tests parce que...
 
-- "Pas assez de temps." <!-- .element: class="fragment" data-fragment-index="1" -->  
-- "Besoin de pouvoir itérer."  <!-- .element: class="fragment" data-fragment-index="2" -->
-- "Ce truc, là, c'est pas testable !"  <!-- .element: class="fragment" data-fragment-index="3" -->  
-- "Faire des tests, c'est chiant !"  <!-- .element: class="fragment" data-fragment-index="4" -->  
+_"Pas assez de temps."_  
+
+Un investissement qui économisera  
+du temps de bugfix.
+<!-- .element: class="fragment" data-fragment-index="1" -->  
+
+---
+
+### Oui, mais non, on peut pas faire de tests parce que...
+
+_"Besoin de pouvoir itérer."_  
+
+Moins de craintes de casser,  
+plus simple de modifier !
+<!-- .element: class="fragment" data-fragment-index="1" --> 
+
+---
+
+### Oui, mais non, on peut pas faire de tests parce que...
+
+_"Ce truc, là, c'est pas testable !"_  
+
+Ok, mais ça, ça et ça,  
+ça l'est ! :)
+<!-- .element: class="fragment" data-fragment-index="1" --> 
+
+---
+
+### Oui, mais non, on peut pas faire de tests parce que...
+
+_"Faire des tests, c'est chiant !"_  
+
+Suffit de commencer par ça !  
+TTD all the way ! <3
+<!-- .element: class="fragment" data-fragment-index="1" --> 
 
 ---
 
@@ -126,79 +156,14 @@ exemple avec unity
 
 ### Conclusion ?
 
-Au dela de la perf, y a plein de trucs à faire pour améliorer son code.
+Au dela de la perf, y a plein de trucs à faire pour améliorer son code.  
 Bien tester, ça en fait partie ! :D
 
 ---
 
 ### Pour aller plus loin ?
 
-integration continu avec GitLab CI ou avec Unity Cloud Build
-injection de dépendance avec ZenJect
-TDD > vidéos de InfaillibleCode sur YouTube
-
-___
-
-# Slide 1
-Content **slide 1**!
-
----
-
-# Slide 2
-Content *slide 2*!
---
-# Slide 2
-## Bis
-Other content **slide 2**!  
-Si je rajoute du contenu ici  
-ça va être à la ligne suivante ?  
-Et là ?
---
-# Slide 2
-## Ter
-- Et si
-- j'affiche
-- des listes ?
---
-# Slide 2
-## Ter
-1. Ou si
-2. j'affiche
-3. des listes ordonnées ?
---
-# Slide 2
-## Blblbl
-Avec du texte indenté :
-> aaa  
-> bbb  
->> cccc
-
----
-
-# Slide 3
-Affichons du code !
-```c#
-// Test
-```
-
----
-
-# Slide 4
-Affichons des images !  
-![](https://media1.tenor.com/images/ea9df861113fecec5bb17bf1faa0124e/tenor.gif)  
---
-# Slide 4
-## Plus d'images !
-![](https://media.giphy.com/media/MS0fQBmGGMaRy/giphy.gif)<!-- .element width="25%" -->
-![](https://media.giphy.com/media/ceE4RymtDQeti/giphy.gif)<!-- .element width="25%" -->
-Note: note pour le speaker ?
-
----
-
-# Slide 5
-Des liens !!!  
-[I'm an inline-style link](https://www.google.com)  
-[Je suis un lien.](https://www.google.fr)  
-<http://www.google.fr>
-
----
+- integration continu avec GitLab CI  
+  ou avec Unity Cloud Build  
+- injection de dépendance avec ZenJect  
+- TDD > vidéos de InfaillibleCode sur YouTube
