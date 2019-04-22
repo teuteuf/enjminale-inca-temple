@@ -35,6 +35,7 @@ toujours là 2 ans après...<!-- .element: class="fragment" data-fragment-index=
 
 Un exemple parmis tant d'autres...<!-- .element: class="fragment" data-fragment-index="3" -->  
 
+![](images/proglife.png)<!-- .element class="fragment" data-fragment-index="3" height="250px" -->
 ---
 
 ### Pourquoi ce code est resté comme ça tout ce temps ?
@@ -61,11 +62,16 @@ Un exemple parmis tant d'autres...<!-- .element: class="fragment" data-fragment-
 
 ### Une solution ?
 
-- Réduire au max la boucle de détection de bugs.
-- Coder avec un harnais ! <!-- .element: class="fragment" data-fragment-index="1" -->
+**Réduire au max la boucle de feedback !**  
 
-![](images/codersanstests.jpg)<!-- .element: class="fragment" data-fragment-index="1" height="225px;" -->
-![](images/coderavectests.jpg)<!-- .element: class="fragment" data-fragment-index="1" height="225px;" -->
+Si on est capable de détecter instantanément les bugs après avoir modifier du code,  
+on aura pas peur d'y toucher !
+
+![](images/bugdetection.png)
+
+---
+
+
 
 ---
 
