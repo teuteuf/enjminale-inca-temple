@@ -60,20 +60,84 @@ Un exemple parmis tant d'autres...<!-- .element: class="fragment" data-fragment-
 
 ---
 
-### Une solution ?
-
-**Réduire au max la boucle de feedback !**  
-
-Si on est capable de détecter instantanément les bugs après avoir modifier du code,  
-on aura pas peur d'y toucher !
+### La peur des bugs
 
 ![](images/bugdetection.png)
 
+**Réduire au max la boucle de feedback !**<!-- .element: class="fragment" data-fragment-index="1" -->  
+
+Si on est capable de détecter instantanément les bugs après avoir modifier du code,  
+on aura pas peur d'y toucher !<!-- .element: class="fragment" data-fragment-index="1" -->  
+
+
 ---
 
+### Et comment on fait ça ?
 
+On s'équipe d'un harnais de tests automatisés !
+![](images/coderavectests.jpg)<!-- .element: height="250px" -->  
 
 ---
+
+### Un test automatisé ?
+
+Un morceau de code qui va executer une partie  
+ou l'intégralité du jeu pour s'assurer  
+que tout fonctionne bien.
+
+---
+
+### Différents types de tests
+
+- 😒 Tests manuels <!-- .element: class="fragment" data-fragment-index="1" -->  
+- 🤔 Tests de bout en bout <!-- .element: class="fragment" data-fragment-index="2" -->  
+- 🙂 Tests fonctionnels <!-- .element: class="fragment" data-fragment-index="3" -->  
+- 😀 Tests unitaires <!-- .element: class="fragment" data-fragment-index="4" -->  
+
+pyramide de tests <!-- .element: class="fragment" data-fragment-index="5" -->  
+
+---
+
+### Pourquoi les tests unitaires  
+### c'est cool ?
+
+- Rapide à écrire.
+- Rapide à éxecuter.
+- Facile à maintenir.
+- Précis.
+- Documentation vivante et forcément à jour.
+
+---
+
+### Oui, mais non, on peut pas faire de tests parce que...
+
+- "Pas assez de temps." <!-- .element: class="fragment" data-fragment-index="1" -->  
+- "Besoin de pouvoir itérer."  <!-- .element: class="fragment" data-fragment-index="2" -->
+- "Ce truc, là, c'est pas testable !"  <!-- .element: class="fragment" data-fragment-index="3" -->  
+- "Faire des tests, c'est chiant !"  <!-- .element: class="fragment" data-fragment-index="4" -->  
+
+---
+
+### Et concrètement ?
+
+exemple avec unity
+
+---
+
+### Conclusion ?
+
+Au dela de la perf, y a plein de trucs à faire pour améliorer son code.
+Bien tester, ça en fait partie ! :D
+
+---
+
+### Pour aller plus loin ?
+
+integration continu avec GitLab CI ou avec Unity Cloud Build
+injection de dépendance avec ZenJect
+TDD > vidéos de InfaillibleCode sur YouTube
+
+___
 
 # Slide 1
 Content **slide 1**!
