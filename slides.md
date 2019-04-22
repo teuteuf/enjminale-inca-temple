@@ -9,6 +9,9 @@ public void Nguaaah() {
 ![](images/indianaswap.webp)  
 _"Si je touche à ça... Est-ce que tout va péter..?"_
 
+Note:
+intro sur la perte confiance de la codebase
+
 ---
 
 ### Qui suis-je ?
@@ -25,38 +28,38 @@ _"Si je touche à ça... Est-ce que tout va péter..?"_
 
 ---
 
+
 ```
 //TODO: This code looks like an Inca Temple. To refactor.
 ```
-vrai commentaire trouvé dans le code des smurfs  
+
+![](images/proglife.png)<!-- .element class="fragment" data-fragment-index="3" -->
+
+Note:
+Vrai commentaire trouvé dans le code des smurfs  
 quand je suis arrivé en stage...
-
-toujours là 2 ans après...<!-- .element: class="fragment" data-fragment-index="2" -->  
-
-Un exemple parmis tant d'autres...<!-- .element: class="fragment" data-fragment-index="3" -->  
-
-![](images/proglife.png)<!-- .element class="fragment" data-fragment-index="3" height="250px" -->
+Toujours là 2 ans après...
+Un exemple parmis tant d'autres...
 ---
 
 ### Pourquoi ce code est resté comme ça tout ce temps ?
-- Difficile de prévoir les effets de bords.  
-- Eviter de créer des bugs.  
-- Eviter de longs aller-retours avec la QA.
-- Eviter de prendre le risque de tout péter.  
 
-![](images/codersanstests.jpg)<!-- .element: class="fragment" data-fragment-index="1" height="250px" -->  
+![](images/codersanstests.jpg)<!-- .element: class="fragment" data-fragment-index="1" height="400px" -->  
+
+Note:
+Pas confiance en notre codebase  
+Peur de créer des bugs.  
 
 ---
 
 ### Conséquences ?
 
-- Frayeurs à faire évoluer des parties du jeu.
-- Beaucoup de temps perdu en bugfix.
-- Contournements qui propage la grangraine.
-- Des développeurs tristes.
-- Une codebase de plus en plus cracra...
+![](images/codebasecracra.jpg)<!-- .element: height="250px" -->  
 
-![](images/codebasecracra.jpg)<!-- .element: class="fragment" data-fragment-index="1" height="250px" -->  
+- Frayeurs à faire évoluer des parties du jeu. <!-- .element class="fragment" data-fragment-index="1" -->  
+- Beaucoup de temps perdu en bugfix. <!-- .element class="fragment" data-fragment-index="2" -->  
+- De plus en plus de hacks. <!-- .element class="fragment" data-fragment-index="3" -->  
+- Des développeurs tristes. <!-- .element class="fragment" data-fragment-index="4" -->  
 
 ---
 
@@ -64,9 +67,9 @@ Un exemple parmis tant d'autres...<!-- .element: class="fragment" data-fragment-
 
 ![](images/bugdetection.png)
 
-**Réduire au max la boucle de feedback !**<!-- .element: class="fragment" data-fragment-index="1" -->  
+**Détecter le maximum de bugs le plus tôt possible !**<!-- .element: class="fragment" data-fragment-index="1" -->  
 
-Si on est capable de détecter instantanément les bugs après avoir modifier du code,  
+Si on est capable de détecter instantanément les bugs après avoir modifier du code,
 on aura pas peur d'y toucher !<!-- .element: class="fragment" data-fragment-index="1" -->  
 
 
@@ -81,30 +84,31 @@ On s'équipe d'un harnais de tests automatisés !
 
 ### Un test automatisé ?
 
-Un morceau de code qui va executer une partie  
-ou l'intégralité du jeu pour s'assurer  
-que tout fonctionne bien.
+Un morceau de code qui va s'assurer que le jeu fonctionne bien.
+
+```
+exemple de code
+```
 
 ---
 
-### Différents types de tests
+### Différents types de tests automatisés
 
-- 😒 Tests manuels <!-- .element: class="fragment" data-fragment-index="1" -->  
-- 🤔 Tests de bout en bout <!-- .element: class="fragment" data-fragment-index="2" -->  
-- 😀 Tests unitaires <!-- .element: class="fragment" data-fragment-index="4" -->  
+- 🤔 Tests de bout en bout <!-- .element: class="fragment" data-fragment-index="1" -->  
+- 😀 Tests unitaires <!-- .element: class="fragment" data-fragment-index="2" -->  
 
-pyramide de tests <!-- .element: class="fragment" data-fragment-index="5" -->  
+pyramide de tests <!-- .element: class="fragment" data-fragment-index="3" -->  
 
 ---
 
 ### Pourquoi les tests unitaires  
 ### c'est cool ?
 
-- Rapide à écrire.
-- Rapide à éxecuter.
-- Facile à maintenir.
-- Précis.
-- Documentation vivante et forcément à jour.
+- Rapide à écrire. <!-- .element: class="fragment" data-fragment-index="1" -->  
+- Rapide à éxecuter. <!-- .element: class="fragment" data-fragment-index="2" -->  
+- Facile à maintenir. <!-- .element: class="fragment" data-fragment-index="3" -->  
+- Précis. <!-- .element: class="fragment" data-fragment-index="4" -->  
+- Documentation vivante et forcément à jour. <!-- .element: class="fragment" data-fragment-index="5" -->  
 
 ---
 
@@ -132,15 +136,15 @@ plus simple de modifier !
 
 _"Ce truc, là, c'est pas testable !"_  
 
-Ok, mais ça, ça et ça,  
-ça l'est ! :)
+Bah teste le pas ! :)  
+Mais ça, ça et ça, c'est testable !
 <!-- .element: class="fragment" data-fragment-index="1" --> 
 
 ---
 
 ### Oui, mais non, on peut pas faire de tests parce que...
 
-_"Faire des tests, c'est chiant !"_  
+_"Faire des tests, c'est compliqué !"_  
 
 Suffit de commencer par ça !  
 TTD all the way ! <3
@@ -150,13 +154,16 @@ TTD all the way ! <3
 
 ### Et concrètement ?
 
+```
 exemple avec unity
+```
+Possible dans la plupart des langages et des moteurs.
 
 ---
 
 ### Conclusion ?
 
-Au dela de la perf, y a plein de trucs à faire pour améliorer son code.  
+Plein de trucs à faire pour améliorer son code.  
 Bien tester, ça en fait partie ! :D
 
 ---
@@ -167,3 +174,7 @@ Bien tester, ça en fait partie ! :D
   ou avec Unity Cloud Build  
 - injection de dépendance avec ZenJect  
 - TDD > vidéos de InfaillibleCode sur YouTube
+
+---
+
+Merci !
