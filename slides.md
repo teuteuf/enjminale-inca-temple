@@ -111,7 +111,7 @@ public void ShouldBeDeadIfMoreDamageThanInitialLife()
 - 🤔 Tests de bout en bout <!-- .element: class="fragment" data-fragment-index="1" -->  
 - 😀 Tests unitaires <!-- .element: class="fragment" data-fragment-index="2" -->  
 
-pyramide de tests <!-- .element: class="fragment" data-fragment-index="3" -->  
+![](images/pyramid.png) <!-- .element: class="fragment" data-fragment-index="3" height="350px" -->  
 
 ---
 
@@ -133,6 +133,7 @@ _"Pas assez de temps."_
 Un investissement qui économisera  
 du temps de bugfix.
 <!-- .element: class="fragment" data-fragment-index="1" -->  
+![](images/catbug.gif)<!-- .element: class="fragment" data-fragment-index="1" height="250px" --> 
 
 ---
 
@@ -142,7 +143,8 @@ _"Besoin de pouvoir itérer."_
 
 Moins de craintes de casser,  
 plus simple de modifier !
-<!-- .element: class="fragment" data-fragment-index="1" --> 
+<!-- .element: class="fragment" data-fragment-index="1" -->  
+![](images/catbreak.gif)<!-- .element: class="fragment" data-fragment-index="1" height="250px" --> 
 
 ---
 
@@ -152,7 +154,8 @@ _"Ce truc, là, c'est pas testable !"_
 
 Bah teste le pas ! :)  
 Mais ça, ça et ça, c'est testable !
-<!-- .element: class="fragment" data-fragment-index="1" --> 
+<!-- .element: class="fragment" data-fragment-index="1" -->  
+![](images/catthat.gif)<!-- .element: class="fragment" data-fragment-index="1" height="250px" --> 
 
 ---
 
@@ -162,17 +165,16 @@ _"Faire des tests, c'est compliqué !"_
 
 Suffit de commencer par ça !  
 TTD all the way ! <3
-<!-- .element: class="fragment" data-fragment-index="1" --> 
+<!-- .element: class="fragment" data-fragment-index="1" -->  
+![](images/cattdd.gif)<!-- .element: class="fragment" data-fragment-index="1" height="250px" --> 
 
 ---
 
 ### Et concrètement ?
+![](images/unitytestrunner.png)<!-- .element: height="400px" -->   
+_Unity + Test Runner + NUnit + NSubstitute = <3_
 
-```
-exemple avec unity
-```
 Possible dans la plupart des langages et des moteurs.
-
 ---
 
 ### Conclusion ?
