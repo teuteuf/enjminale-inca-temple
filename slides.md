@@ -10,7 +10,9 @@ public void Nguaaah() {
 _"Si je touche à ça... Est-ce que tout va péter..?"_
 
 Note:
-intro sur la perte confiance de la codebase
+Hello tout le monde !
+Je viens vous parler d'un sentiment que j'ai pu observer plus d'une fois
+face à une code base qui grossit et qui commence à prendre de l'age
 
 ---
 
@@ -86,8 +88,20 @@ On s'équipe d'un harnais de tests automatisés !
 
 Un morceau de code qui va s'assurer que le jeu fonctionne bien.
 
-```
-exemple de code
+```C#
+[Test]
+public void ShouldBeDeadIfMoreDamageThanInitialLife()
+{
+		// Given
+		const int initialLife = 20;
+		var playerLife = new PlayerLife(initialLife);
+
+		// When
+		playerLife.ReduceLife(999);
+
+		// Then
+		Assert.That(lifeCounter.IsDead(), Is.True);
+}
 ```
 
 ---
