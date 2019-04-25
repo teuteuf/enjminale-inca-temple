@@ -24,8 +24,8 @@ face à une code base qui grossit et qui commence à prendre de l'age
 ![](images/smurfs_banniere.jpg)<!-- .element height="100px" -->
 - *'17 - '19 :* OCTO Technology (ESN/SSII)  
 ![](images/octo.jpg)<!-- .element height="100px" -->
-![](images/thereisabetterway.png)<!-- .element height="100px" -->
-![](images/culturecode.png)<!-- .element height="100px" -->
+![](images/thereisabetterway.PNG)<!-- .element height="100px" -->
+![](images/culturecode.PNG)<!-- .element height="100px" -->
 - Bientôt à Montpellier ! *#LookingForJob*
 
 ---
@@ -171,7 +171,7 @@ TTD all the way ! <3
 ---
 
 ### Et concrètement ?
-![](images/unitytestrunner.png)<!-- .element: height="400px" -->   
+![](images/unitytestrunner.PNG)<!-- .element: height="400px" -->   
 _Unity + Test Runner + NUnit + NSubstitute = <3_
 
 Possible dans la plupart des langages et des moteurs.
