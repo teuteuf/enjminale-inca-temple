@@ -179,18 +179,21 @@ Possible dans la plupart des langages et des moteurs.
 
 ### Conclusion ?
 
-Plein de trucs à faire pour améliorer son code.  
-Bien tester, ça en fait partie ! :D
+Plein de trucs à faire pour améliorer son code  
+et ses habitudes de développement.  
+Bien tester, ça en fait partie ! :D  
 
----
+D'autres pistes : <!-- .element: class="fragment" data-fragment-index="2" -->  
+- Integration continu <!-- .element: class="fragment" data-fragment-index="2" -->
+_(GitLab CI, Unity Cloud Build)_ <!-- .element: class="fragment" data-fragment-index="2" --> 
+- Injection de dépendance <!-- .element: class="fragment" data-fragment-index="3" -->
+_(Zenject)_ <!-- .element: class="fragment" data-fragment-index="3" -->  
+- Test Driven Development <!-- .element: class="fragment" data-fragment-index="4" -->
+_(youtube/InfaillibleCode)_ <!-- .element: class="fragment" data-fragment-index="4" -->  
 
-### Pour aller plus loin ?
-
-- integration continu avec GitLab CI  
-  ou avec Unity Cloud Build  
-- injection de dépendance avec ZenJect  
-- TDD > vidéos de InfaillibleCode sur YouTube
-
+![](images/gitlab.png) <!-- .element: class="fragment" data-fragment-index="4" height="100px" -->
+![](images/zenject.png) <!-- .element: class="fragment" data-fragment-index="4" height="100px" -->
+![](images/infailliblecode.jpg) <!-- .element: class="fragment" data-fragment-index="4" height="100px" -->  
 ---
 
 Merci !
