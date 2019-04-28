@@ -96,7 +96,7 @@ Sauf que...
 Note:
 Bah sauf que en général, un premier bloc de code comme ça, pour éviter d'y
 toucher, on va faire des petits hacks à droite et à gauche, trouver des
-contournements, etc... au final, on va se retrouver à faire des trucs compliqués
+contournements, etc... on va se retrouver à faire des trucs compliqués
 pour résoudre des choses simples juste pour pas toucher à un morceau de code un
 peu pourri.
 Au final, à force de contourner, ou quand il faudra quand même y toucher...
@@ -110,8 +110,8 @@ Finalement, cette dégradation de notre base de code... bah elle va nous rendre
 triste, démotivé... Le code, on a les mains dedans toute la journée, du coup si il
 commence a être tout dégueu... Et la demotivation bah ça risque d'entrainer encore
 plus de négligence et là on rentre dans un cercle vicieux.
-Et tout ça pour quoi ? Parce qu'on a pas osé netoyer du code obscure, parce qu'on
-avait peur de créer des bugs... Mais pourquoi on a peur de créer des bugs.
+Et tout ça pour quoi ? Parce qu'on a pas osé nettoyer du code obscure, parce qu'on
+avait peur de créer des bugs... Mais pourquoi on a aussi peur de créer des bugs ?
 
 ---
 
@@ -214,7 +214,7 @@ public void ShouldBeDeadIfMoreDamageThanInitialLife()
 		playerLife.ReduceLife(999);
 
 		// Then
-		Assert.That(lifeCounter.IsDead(), Is.True);
+		Assert.That(playerLife.IsDead(), Is.True);
 }
 ```
 
@@ -238,7 +238,7 @@ le THEN qui sera la vérification en question, l'assertion.
 - Documentation vivante et forcément à jour. <!-- .element: class="fragment" data-fragment-index="5" -->  
 
 Note:
-C'est super rapide à écrire ! Ca prend très peu de temps un fois qu'on a pris
+C'est super rapide à écrire ! Ca prend très peu de temps une fois qu'on a pris
 l'habitude ! C'est quelques lignes de codes et hop! c'est bon !
 Ca s'execute super vite, un test unitaire, normalement c'est pas plus de 0,1s.
 On peut en lancer des centaines en un claquement de doigts ! Ca c'est important !
@@ -250,7 +250,7 @@ De la même manière, comme la partie de code concernée par UN test est très
 spécifique, on saura que si notre test est rouge, c'est que c'est cette partie 
 spécifique qui pause problème. Pas besoin de chercher les steps de repro bizarre.
 Et finalement, un dernier truc cool : ca sert de documentation ! Un test bien
-écrit, ça donne des exemples concret d'utilisation du code et c'est bien utile !
+écrit, ça donne des exemples concrets d'utilisation du code et c'est bien utile !
 En plus, c'est forcément à jour vu que c'est executer sur le code. Et perso... 
 C'est bien le seul moyen de me faire écrire de la doc sans que ça me saoule... :p
 Après voilà, souvent quand je parle de mettre en place des tests, que ce soit dans
@@ -271,7 +271,7 @@ Note:
 Souvent la première chose qu'on me dit, c'est que ça prend trop de temps !
 Bah ouais ça prend un peu de temps... Mais c'est un investissement !
 Le temps qu'on investira à mettre en place des tests sera plus que rentabilisé
-par le temps économisé en bugfix. Alors à moi d'apprécier passer du temps à fixer
+par le temps économisé en bugfix. Alors à moins d'apprécier passer du temps à fixer
 des bugs.. L'investissement vaut le coup !
 
 ---
@@ -327,8 +327,8 @@ Des fois, on se rend compte que son code est compliqué à tester. Trop de chose
 déclarer pour préparer la situation initial... En vrai...
 Il suffit de commencer par poser son test ! Et ça, ça la méthodo TDD.
 En très gros, on commence toujours par écrire un test qui va fail, puis on va
-faire le code minimal du jeu pour que le test passe au vert. Ca permet d'avoir du
-code mieux découper et plus simple à maintenir.
+faire le code minimal du jeu pour que le test passe au vert. Puis on refait un tests et on recommence...
+Ca permet d'avoir du code mieux découper et plus simple à maintenir.
 Mais ça, ça pourrait faire l'objet de tout un talk, voir plus, donc on va pas
 entrer plus dans le détail, mais si ça vous intéresse, hésitez pas !
 
@@ -344,8 +344,8 @@ Note:
 Concrètement, comment on fait pour s'y mettre ?
 Bah la plupart des langages et des moteurs permettent d'en mettre en place
 facilement. Moi j'utilise Unity qui a un Test Runner intégré. Ca utilise NUnit
-un librairie standard pour faire des tests en C#, avec Substitute pour créer des
-faux objets et vérifier les intéractions entre différentes objets. Ca marche bien
+une librairie standard pour faire des tests en C#, avec NSubstitute pour créer des
+faux objets et vérifier les intéractions entre différents objets. Ca marche bien
 et y a pas mal de ressources sur le net pour s'y mettre.
 
 ---
@@ -373,21 +373,21 @@ _(github/teuteuf)_ <!-- .element: class="fragment" data-fragment-index="5" -->
 Note:
 Bah voilà ! Je pense qu'il y a toujours des moyens pour améliorer notre manière
 de coder et du coup, bien tester, ça en fait parti !
-Si ces sujets vous intéresse, d'autres trucs que je trouve intéressant :
-L'integration continue, le principe, lancer tous les tests, faire un build et la
+Si c'est un sujet vous intéresse, d'autres trucs qui vont bien avec :
+L'integration continue, le principe, lancer tous les tests, faire une build et la
 livrer à chaque push sur git ! (Deliver few, deliver often !) Ca peut se mettre en
 place avec Unit Cloud Build pour les projets Unity ou avec GitLab en bricolant un
 peu.
 Le principe de l'injection de dépendance, avec notamment le plugin Unity Zenject
-qui permet de faire ça facilement. Un bon moyen de se retrouver avec un Game
-Manager qui ressemble aux cables cachés derrières ma télé.
+qui permet de faire ça facilement. Un bon moyen d'éviter de se retrouver avec un
+GameManager qui ressemble aux cables cachés derrières ma télé.
 Le Test Driven Development que j'ai évoqué rapidement, une methodo vraiment cool
 une fois qu'on a assimilé et qui permet d'avoir du code mieux designé et bien
 testé ! Y a un mec qui fait des vidéos youtube qui s'appelle InfaillibleCode et
 qui traite pas mal ces sujets là.
 Et si vous voulez voir un peu ce que ça peut donner, j'ai un petit projet perso
-sur mon github, tout en TDD. C'est pas parfait, mais ça permet vous donner une
-idée d'à quoi ça peut ressembler.
+sur mon github, tout en TDD. C'est pas parfait, c'est surtout un jeu d'UI,
+mais ça peut vous permettre d'avoir une idée d'à quoi ça peut ressembler.
 
 ---
 
